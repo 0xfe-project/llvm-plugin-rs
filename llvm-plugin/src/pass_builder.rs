@@ -430,7 +430,6 @@ impl PassBuilder {
     /// else.
     #[cfg(any(
         doc,
-        feature = "llvm11-0",
         feature = "llvm12-0",
         feature = "llvm13-0",
         feature = "llvm14-0",
